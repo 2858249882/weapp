@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-icon": "../../../assets/vant/icon/index",
+    "i-icon": "../../../assets/dist/icon/index",
+    "i-tab-bar": "../../../assets/dist/tab-bar/index",
+    "i-tab-bar-item": "../../../assets/dist/tab-bar-item/index",
+    "van-tabbar": "../../../assets/vant/tabbar/index",
+    "van-tabbar-item": "../../../assets/vant/tabbar-item/index"
+  },
+  "component": true
+}

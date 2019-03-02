@@ -1,0 +1,153 @@
+<view class="page">
+  <view class="header">
+    <view class="header-search">
+      <view class="search-left">
+        <van-icon name="scan" class="search-left-icon" size="19px" />
+      </view>
+      <view class="search-center">
+        <van-icon name="search" class="search-center-icon" />
+        <text class="search-center-text">搜索商品、品牌</text>
+      </view>
+      <view class="search-right">
+        <text class="search-right-text">登录</text>
+      </view>
+    </view>
+  </view>
+  <!--首页轮播图start -->
+  <swiper indicator-dots="true" autoplay="true" interval="3000">
+    <block>
+      <swiper-item wx:for="{{imgUrls}}">
+        <image src="{{item}}" width="1600" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 首页轮播图end -->
+  <view class="quick-entry">
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-index.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        首页
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-class.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        商品分类
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-time.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        限时抢购
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-brand.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        品牌专区
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-takeaway.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        外卖
+      </view>
+    </view>
+  </view>
+  <view class="quick-entry">
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-user.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        会员中心
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-activity.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        专题活动
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-recharge.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        充值中心
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-group-buy.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        团购专区
+      </view>
+    </view>
+    <view class="quick-entry-item">
+      <view class="quick-entry-item-img">
+        <image src='../../assets/images/chao99-icon-car.png'/>
+      </view>
+      <view class="quick-entry-item-dec">
+        购物车
+      </view>
+    </view>
+  </view>
+  <view class="announcement">
+    <image src='../../assets/images/chao99-announcement.png' />
+    <text>超溜溜商城上线啦！</text>
+  </view>
+  <view class="goods-list">
+  1231111
+  </view>
+  <view class="goods-list">
+  1231222
+  </view>
+  <view class="goods-list">
+  1231333
+  </view>
+  <view class="goods-list">
+  1231444
+  </view>
+  <view class="goods-list">
+  1231555
+  </view>
+  <view class="goods-list">
+  1231555
+  </view>
+  <view class="goods-list">
+  1231555
+  </view>
+  <view class="goods-list">
+  1231555
+  </view>
+  <view class="goods-list">
+  1231999
+  </view>
+
+
+<footer active="{{active}}"></footer>
+<view class="abc"></view>
+  <!-- <view class="footer">
+    <i-tab-bar current="{{ current }}" color="#108EE" bindchange="handleChange">
+    <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
+    <i-tab-bar-item key="barrage" icon="barrage" current-icon="barrage" title="分类"></i-tab-bar-item>
+    <i-tab-bar-item key="message" icon="message" current-icon="message" title="消息"></i-tab-bar-item>
+    <i-tab-bar-item key="publishgoods_fill" icon="publishgoods_fill" current-icon="publishgoods_fill" title="购物车"></i-tab-bar-item>
+    <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的"></i-tab-bar-item>
+</i-tab-bar>
+  </view> -->
+</view>
