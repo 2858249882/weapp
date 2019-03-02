@@ -1,0 +1,6 @@
+<view class="page">
+  商品分类
+
+
+<footer active="{{active}}"></footer>
+</view>

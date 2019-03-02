@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/my/my",
+    "pages/class/index",
+    "pages/message/index",
+    "pages/car/index",
+    "pages/my/index",
     "pages/logs/logs"
   ],
   "window":{

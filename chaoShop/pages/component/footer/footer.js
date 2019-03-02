@@ -12,9 +12,30 @@ Component({
   methods: {
     footerOnChange(e) {
       console.log('现在点击的索引为：', e.detail);
-      if(e.detail === 4){
+      const thisIndex = e.detail;
+      if(thisIndex === 0){
         wx.navigateTo({
-          url: '/pages/my/my'
+          url: '/pages/index/index'
+        })
+      }
+      if(thisIndex === 1){
+        wx.navigateTo({
+          url: '/pages/class/index'
+        })
+      }
+      if(thisIndex === 2){
+        wx.navigateTo({
+          url: '/pages/message/index'
+        })
+      }
+      if(thisIndex === 3){
+        wx.navigateTo({
+          url: '/pages/car/index'
+        })
+      }
+      if(thisIndex === 4){
+        wx.navigateTo({
+          url: '/pages/my/index'
         })
       }
     },

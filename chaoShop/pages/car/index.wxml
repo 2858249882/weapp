@@ -1,0 +1,6 @@
+<view class="page">
+  这是购物车
+
+
+<footer active="{{active}}"></footer>
+</view>

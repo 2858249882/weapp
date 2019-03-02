@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp(); 
 
 Page({
   data: {
@@ -17,7 +17,6 @@ Page({
     active: 0
   },
   onShow() {
-    this.setData({ current: 'homepage', active: 0 });
   },
   onChange(event) {
     console.log('现在点击的索引为：',event.detail);

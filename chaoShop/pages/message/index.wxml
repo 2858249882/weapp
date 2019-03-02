@@ -1,0 +1,6 @@
+<view class="page">
+  消息
+
+
+<footer active="{{active}}"></footer>
+</view>

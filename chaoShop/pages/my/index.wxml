@@ -1,0 +1,6 @@
+<view class="page">
+  我的
+
+
+<footer active="{{active}}"></footer>
+</view>
