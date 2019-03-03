@@ -16,7 +16,7 @@
   <!--首页轮播图start -->
   <swiper indicator-dots="true" autoplay="true" interval="3000">
     <block>
-      <swiper-item wx:for="{{imgUrls}}">
+      <swiper-item wx:for="{{imgUrls}}" wx:key="{{index}}">
         <image src="{{item}}" width="1600" height="150"/>
       </swiper-item>
     </block>

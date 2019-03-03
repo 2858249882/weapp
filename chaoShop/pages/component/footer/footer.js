@@ -14,27 +14,27 @@ Component({
       console.log('现在点击的索引为：', e.detail);
       const thisIndex = e.detail;
       if(thisIndex === 0){
-        wx.navigateTo({
+        wx.reLaunch({
           url: '/pages/index/index'
         })
       }
       if(thisIndex === 1){
-        wx.navigateTo({
+        wx.reLaunch({
           url: '/pages/class/index'
         })
       }
       if(thisIndex === 2){
-        wx.navigateTo({
+        wx.reLaunch({
           url: '/pages/message/index'
         })
       }
       if(thisIndex === 3){
-        wx.navigateTo({
+        wx.reLaunch({
           url: '/pages/car/index'
         })
       }
       if(thisIndex === 4){
-        wx.navigateTo({
+        wx.reLaunch({
           url: '/pages/my/index'
         })
       }
